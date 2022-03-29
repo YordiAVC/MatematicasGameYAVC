@@ -1,0 +1,17 @@
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bin\Debug\ReverseMap\resources.pri
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bin\Debug\AppxManifest.xml
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bin\Debug\MatematicaGame.build.appxrecipe
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\MatematicaGame.jsproj.CoreCompileInputs.cache
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\ResourceHandlingTask.state
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\priconfig.xml
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\priconfig.xml.intermediate
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\layout.resfiles
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\layout.resfiles.intermediate
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\resources.resfiles
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\resources.resfiles.intermediate
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\pri.resfiles
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\pri.resfiles.intermediate
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\qualifiers.txt
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\qualifiers.txt.intermediate
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\ProjectArchitectures.txt

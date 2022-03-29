@@ -1,0 +1,1438 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>MatematicaGame</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="css/adaptable.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="contenedor" id="contenedor">
+        <div class="contenedor-nivel" id="contenedor_nivel">
+            <div class="caja cnivel">
+                <h3 class="titulo-nivel">NIVEL:</h3>
+                <p id="p_nivel">0</p>
+            </div>
+        </div>
+        <div class="contenedorMax">
+
+            <section class="seccion">
+                <article id="t">
+                    <div class="titulo_juego" id="titulo_juego">
+                        <div class="titulo">
+                            <h1 class="titulex">MATEMATICA</h1>
+                            <p class="xd">EKISDE</p>
+                        </div>
+                        <div class="opciones" id="opciones">
+                            <div class="btn jugar" id="btn_jugar">
+                                <p>JUGAR</p>
+                            </div>
+                            <div class="btn ayuda" id="btn_ayuda">
+                                <p>AYUDA</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!--======================= NIVEL 1 =======================-->
+
+                <article id="nivel1">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>1</p>
+                    </div>
+                </article>
+
+                <article id="n1-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>1<span class="signos">+</span>1 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_000">1</div>
+                        <div class="opcion" id="opc_1_001">2</div>
+                        <div class="opcion" id="opc_1_002">3</div>
+                        <div class="opcion" id="opc_1_003">4</div>
+                    </div>
+                </article>
+
+                <article id="n1-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>1<span class="signos">-</span>1 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_010">2</div>
+                        <div class="opcion" id="opc_1_011">0</div>
+                        <div class="opcion" id="opc_1_012">5</div>
+                        <div class="opcion" id="opc_1_013">1</div>
+                    </div>
+                </article>
+
+                <article id="n1-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>5<span class="signos">+</span>3 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_020">8</div>
+                        <div class="opcion" id="opc_1_021">7</div>
+                        <div class="opcion" id="opc_1_022">-3</div>
+                        <div class="opcion" id="opc_1_023">9</div>
+                    </div>
+                </article>
+
+                <article id="n1-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>5<span class="signos">-</span>8 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_030">-2</div>
+                        <div class="opcion" id="opc_1_031">6</div>
+                        <div class="opcion" id="opc_1_032">2</div>
+                        <div class="opcion" id="opc_1_033">-3</div>
+                    </div>
+                </article>
+
+                <article id="n1-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>10<span class="signos">+</span>5 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_040">-15</div>
+                        <div class="opcion" id="opc_1_041">30</div>
+                        <div class="opcion" id="opc_1_042">18</div>
+                        <div class="opcion" id="opc_1_043">15</div>
+                    </div>
+                </article>
+
+                <article id="n1-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>20<span class="signos">-</span>5 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_050">25</div>
+                        <div class="opcion" id="opc_1_051">10</div>
+                        <div class="opcion" id="opc_1_052">15</div>
+                        <div class="opcion" id="opc_1_053">-15</div>
+                    </div>
+                </article>
+                <article id="n1-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>30<span class="signos">+</span>50 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_060">80</div>
+                        <div class="opcion" id="opc_1_061">70</div>
+                        <div class="opcion" id="opc_1_062">90</div>
+                        <div class="opcion" id="opc_1_063">20</div>
+                    </div>
+                </article>
+
+                <article id="n1-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>40<span class="signos">-</span>50<span class="signos">+</span>30 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_070">80</div>
+                        <div class="opcion" id="opc_1_071">30</div>
+                        <div class="opcion" id="opc_1_072">20</div>
+                        <div class="opcion" id="opc_1_073">70</div>
+                    </div>
+                </article>
+
+                <article id="n1-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>50<span class="signos">-</span>15<span class="signos">-</span>18<span class="signos">+</span>100 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_080">165</div>
+                        <div class="opcion" id="opc_1_081">203</div>
+                        <div class="opcion" id="opc_1_082">133</div>
+                        <div class="opcion" id="opc_1_083">117</div>
+                    </div>
+                </article>
+
+                <article id="n1-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>99<span class="signos">-</span>1<span class="signos">+</span>30<span class="signos">+</span>1<span class="signos">-</span>53 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_1_090">76</div>
+                        <div class="opcion" id="opc_1_091">95</div>
+                        <div class="opcion" id="opc_1_092">130</div>
+                        <div class="opcion" id="opc_1_093">89</div>
+                    </div>
+                </article>
+
+                <!--======================= NIVEL 2 =======================-->
+
+                <article id="nivel2">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>2</p>
+                    </div>
+                </article>
+
+                <article id="n2-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>1 <span class="signos">x</span> 1?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_000">2</div>
+                        <div class="opcion" id="opc_2_001">1</div>
+                        <div class="opcion" id="opc_2_002">3</div>
+                        <div class="opcion" id="opc_2_003">-2</div>
+                    </div>
+                </article>
+
+                <article id="n2-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>2 <span class="signos">x</span> 2 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_010">3</div>
+                        <div class="opcion" id="opc_2_011">-4</div>
+                        <div class="opcion" id="opc_2_012">8</div>
+                        <div class="opcion" id="opc_2_013">4</div>
+                    </div>
+                </article>
+
+                <article id="n2-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>3 <span class="signos">x</span> 3 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_020">16</div>
+                        <div class="opcion" id="opc_2_021">6</div>
+                        <div class="opcion" id="opc_2_022">9</div>
+                        <div class="opcion" id="opc_2_023">8</div>
+                    </div>
+                </article>
+
+                <article id="n2-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>5 <span class="signos">x</span> 4 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_030">10</div>
+                        <div class="opcion" id="opc_2_031">20</div>
+                        <div class="opcion" id="opc_2_032">13</div>
+                        <div class="opcion" id="opc_2_033">9</div>
+                    </div>
+                </article>
+
+                <article id="n2-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>9 <span class="signos">x</span> 0 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_040">9</div>
+                        <div class="opcion" id="opc_2_041">1</div>
+                        <div class="opcion" id="opc_2_042">0</div>
+                        <div class="opcion" id="opc_2_043">5</div>
+                    </div>
+                </article>
+
+                <article id="n2-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>15 <span class="signos">x</span> 1 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_050">15</div>
+                        <div class="opcion" id="opc_2_051">1</div>
+                        <div class="opcion" id="opc_2_052">16</div>
+                        <div class="opcion" id="opc_2_053">20</div>
+                    </div>
+                </article>
+                <article id="n2-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>10 <span class="signos">x</span> 10 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_060">20</div>
+                        <div class="opcion" id="opc_2_061">30</div>
+                        <div class="opcion" id="opc_2_062">120</div>
+                        <div class="opcion" id="opc_2_063">100</div>
+                    </div>
+                </article>
+
+                <article id="n2-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>16 <span class="signos">x</span> 4 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_070">54</div>
+                        <div class="opcion" id="opc_2_071">32</div>
+                        <div class="opcion" id="opc_2_072">64</div>
+                        <div class="opcion" id="opc_2_073">20</div>
+                    </div>
+                </article>
+
+                <article id="n2-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>0 <span class="signos">x</span> 0 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_080">-0</div>
+                        <div class="opcion" id="opc_2_081">0</div>
+                        <div class="opcion" id="opc_2_082">1</div>
+                        <div class="opcion" id="opc_2_083">2</div>
+                    </div>
+                </article>
+
+                <article id="n2-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>25 <span class="signos">x</span> 25?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_2_090">125</div>
+                        <div class="opcion" id="opc_2_091">255</div>
+                        <div class="opcion" id="opc_2_092">425</div>
+                        <div class="opcion" id="opc_2_093">625</div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 3 =======================-->
+
+                <article id="nivel3">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>3</p>
+                    </div>
+                </article>
+
+                <article id="n3-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>1 <span class="signos">%</span> 1 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_000">1</div>
+                        <div class="opcion" id="opc_3_001">0</div>
+                        <div class="opcion" id="opc_3_002">2</div>
+                        <div class="opcion" id="opc_3_003">-2</div>
+                    </div>
+                </article>
+
+                <article id="n3-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>4 <span class="signos">%</span> 2 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_010">4</div>
+                        <div class="opcion" id="opc_3_011">6</div>
+                        <div class="opcion" id="opc_3_012">2</div>
+                        <div class="opcion" id="opc_3_013">1</div>
+                    </div>
+                </article>
+
+                <article id="n3-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>5 <span class="signos">%</span> 1?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_020">4</div>
+                        <div class="opcion" id="opc_3_021">1</div>
+                        <div class="opcion" id="opc_3_022">3</div>
+                        <div class="opcion" id="opc_3_023">5</div>
+                    </div>
+                </article>
+
+                <article id="n3-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>12 <span class="signos">%</span> 6 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_030">8</div>
+                        <div class="opcion" id="opc_3_031">2</div>
+                        <div class="opcion" id="opc_3_032">18</div>
+                        <div class="opcion" id="opc_3_033">20</div>
+                    </div>
+                </article>
+
+                <article id="n3-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>20 <span class="signos">%</span> 5 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_040">4</div>
+                        <div class="opcion" id="opc_3_041">25</div>
+                        <div class="opcion" id="opc_3_042">100</div>
+                        <div class="opcion" id="opc_3_043">40</div>
+                    </div>
+                </article>
+
+                <article id="n3-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>99 <span class="signos">%</span> 3 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_050">102</div>
+                        <div class="opcion" id="opc_3_051">85</div>
+                        <div class="opcion" id="opc_3_052">96</div>
+                        <div class="opcion" id="opc_3_053">33</div>
+                    </div>
+                </article>
+                <article id="n3-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>2 <span class="signos">%</span> 5 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_060">2.5</div>
+                        <div class="opcion" id="opc_3_061">0.4</div>
+                        <div class="opcion" id="opc_3_062">0.8</div>
+                        <div class="opcion" id="opc_3_063">0.5</div>
+                    </div>
+                </article>
+
+                <article id="n3-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>4 % 20 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_070">0.5</div>
+                        <div class="opcion" id="opc_3_071">0.2</div>
+                        <div class="opcion" id="opc_3_072">5</div>
+                        <div class="opcion" id="opc_3_073">20</div>
+                    </div>
+                </article>
+
+                <article id="n3-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>9 <span class="signos">%</span> 18?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_080">0.9</div>
+                        <div class="opcion" id="opc_3_081">0.5</div>
+                        <div class="opcion" id="opc_3_082">1.25</div>
+                        <div class="opcion" id="opc_3_083">4.5</div>
+                    </div>
+                </article>
+
+                <article id="n3-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>12 <span class="signos">%</span> 24 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_3_090">0.5</div>
+                        <div class="opcion" id="opc_3_091">0.4</div>
+                        <div class="opcion" id="opc_3_092">0.3</div>
+                        <div class="opcion" id="opc_3_093">0.28</div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 4 =======================-->
+
+                <article id="nivel4">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>4</p>
+                    </div>
+                </article>
+
+                <article id="n4-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>1 <span class="signos">x</span> 1 <span class="signos">%</span> 1?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_000"></div>
+                        <div class="opcion" id="opc_4_001"></div>
+                        <div class="opcion" id="opc_4_002">1</div>
+                        <div class="opcion" id="opc_4_003"></div>
+                    </div>
+                </article>
+
+                <article id="n4-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>2 <span class="signos">x</span> 2 <span class="signos">%</span> 1 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_010"></div>
+                        <div class="opcion" id="opc_4_011">4</div>
+                        <div class="opcion" id="opc_4_012"></div>
+                        <div class="opcion" id="opc_4_013"></div>
+                    </div>
+                </article>
+
+                <article id="n4-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>4 <span class="signos">x</span> 5 <span class="signos">x</span> 2 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_020"></div>
+                        <div class="opcion" id="opc_4_021"></div>
+                        <div class="opcion" id="opc_4_022">40</div>
+                        <div class="opcion" id="opc_4_023"></div>
+                    </div>
+                </article>
+
+                <article id="n4-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>8 <span class="signos">x</span> 5 <span class="signos">%</span> 2 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_030">20</div>
+                        <div class="opcion" id="opc_4_031"></div>
+                        <div class="opcion" id="opc_4_032"></div>
+                        <div class="opcion" id="opc_4_033"></div>
+                    </div>
+                </article>
+
+                <article id="n4-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>15 <span class="signos">%</span> 5 <span class="signos">x</span> 5 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_040"></div>
+                        <div class="opcion" id="opc_4_041"></div>
+                        <div class="opcion" id="opc_4_042"></div>
+                        <div class="opcion" id="opc_4_043">15</div>
+                    </div>
+                </article>
+
+                <article id="n4-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>10 <span class="signos">x</span> 5 <span class="signos">%</span> 2 <span class="signos">x</span> 8?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_050"></div>
+                        <div class="opcion" id="opc_4_051"></div>
+                        <div class="opcion" id="opc_4_052"></div>
+                        <div class="opcion" id="opc_4_053">200</div>
+                    </div>
+                </article>
+                <article id="n4-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>40 <span class="signos">%</span> 5 <span class="signos">x</span> 2 <span class="signos">%</span> 2 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_060">8</div>
+                        <div class="opcion" id="opc_4_061"></div>
+                        <div class="opcion" id="opc_4_062"></div>
+                        <div class="opcion" id="opc_4_063"></div>
+                    </div>
+                </article>
+
+                <article id="n4-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>50 <span class="signos">x</span> 2 <span class="signos">%</span> 5 <span class="signos">x</span> 2 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_070"></div>
+                        <div class="opcion" id="opc_4_071">40</div>
+                        <div class="opcion" id="opc_4_072"></div>
+                        <div class="opcion" id="opc_4_073"></div>
+                    </div>
+                </article>
+
+                <article id="n4-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>60 <span class="signos">%</span> 3 <span class="signos">x</span> 50 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_080">1000</div>
+                        <div class="opcion" id="opc_4_081"></div>
+                        <div class="opcion" id="opc_4_082"></div>
+                        <div class="opcion" id="opc_4_083"></div>
+                    </div>
+                </article>
+
+                <article id="n4-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>4 <span class="signos">%</span> 4 <span class="signos">%</span> 4 ?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_4_090"></div>
+                        <div class="opcion" id="opc_4_091">0.25</div>
+                        <div class="opcion" id="opc_4_092"></div>
+                        <div class="opcion" id="opc_4_093"></div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 5 =======================-->
+
+                <article id="nivel5">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>5</p>
+                    </div>
+                </article>
+
+                <article id="n5-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_000"></div>
+                        <div class="opcion" id="opc_5_001"></div>
+                        <div class="opcion" id="opc_5_002"></div>
+                        <div class="opcion" id="opc_5_003"></div>
+                    </div>
+                </article>
+
+                <article id="n5-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_010"></div>
+                        <div class="opcion" id="opc_5_011"></div>
+                        <div class="opcion" id="opc_5_012"></div>
+                        <div class="opcion" id="opc_5_013"></div>
+                    </div>
+                </article>
+
+                <article id="n5-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_020"></div>
+                        <div class="opcion" id="opc_5_021"></div>
+                        <div class="opcion" id="opc_5_022"></div>
+                        <div class="opcion" id="opc_5_023"></div>
+                    </div>
+                </article>
+
+                <article id="n5-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_030"></div>
+                        <div class="opcion" id="opc_5_031"></div>
+                        <div class="opcion" id="opc_5_032"></div>
+                        <div class="opcion" id="opc_5_033"></div>
+                    </div>
+                </article>
+
+                <article id="n5-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_040"></div>
+                        <div class="opcion" id="opc_5_041"></div>
+                        <div class="opcion" id="opc_5_042"></div>
+                        <div class="opcion" id="opc_5_043"></div>
+                    </div>
+                </article>
+
+                <article id="n5-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_050"></div>
+                        <div class="opcion" id="opc_5_051"></div>
+                        <div class="opcion" id="opc_5_052"></div>
+                        <div class="opcion" id="opc_5_053"></div>
+                    </div>
+                </article>
+                <article id="n5-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_060"></div>
+                        <div class="opcion" id="opc_5_061"></div>
+                        <div class="opcion" id="opc_5_062"></div>
+                        <div class="opcion" id="opc_5_063"></div>
+                    </div>
+                </article>
+
+                <article id="n5-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_070"></div>
+                        <div class="opcion" id="opc_5_071"></div>
+                        <div class="opcion" id="opc_5_072"></div>
+                        <div class="opcion" id="opc_5_073"></div>
+                    </div>
+                </article>
+
+                <article id="n5-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_080"></div>
+                        <div class="opcion" id="opc_5_081"></div>
+                        <div class="opcion" id="opc_5_082"></div>
+                        <div class="opcion" id="opc_5_083"></div>
+                    </div>
+                </article>
+
+                <article id="n5-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_5_090"></div>
+                        <div class="opcion" id="opc_5_091"></div>
+                        <div class="opcion" id="opc_5_092"></div>
+                        <div class="opcion" id="opc_5_093"></div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 6 =======================-->
+
+                <article id="nivel6">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>6</p>
+                    </div>
+                </article>
+
+                <article id="n6-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_000"></div>
+                        <div class="opcion" id="opc_6_001"></div>
+                        <div class="opcion" id="opc_6_002"></div>
+                        <div class="opcion" id="opc_6_003"></div>
+                    </div>
+                </article>
+
+                <article id="n6-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_010"></div>
+                        <div class="opcion" id="opc_6_011"></div>
+                        <div class="opcion" id="opc_6_012"></div>
+                        <div class="opcion" id="opc_6_013"></div>
+                    </div>
+                </article>
+
+                <article id="n6-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_020"></div>
+                        <div class="opcion" id="opc_6_021"></div>
+                        <div class="opcion" id="opc_6_022"></div>
+                        <div class="opcion" id="opc_6_023"></div>
+                    </div>
+                </article>
+
+                <article id="n6-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_030"></div>
+                        <div class="opcion" id="opc_6_031"></div>
+                        <div class="opcion" id="opc_6_032"></div>
+                        <div class="opcion" id="opc_6_033"></div>
+                    </div>
+                </article>
+
+                <article id="n6-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_040"></div>
+                        <div class="opcion" id="opc_6_041"></div>
+                        <div class="opcion" id="opc_6_042"></div>
+                        <div class="opcion" id="opc_6_043"></div>
+                    </div>
+                </article>
+
+                <article id="n6-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_050"></div>
+                        <div class="opcion" id="opc_6_051"></div>
+                        <div class="opcion" id="opc_6_052"></div>
+                        <div class="opcion" id="opc_6_053"></div>
+                    </div>
+                </article>
+                <article id="n6-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_060"></div>
+                        <div class="opcion" id="opc_6_061"></div>
+                        <div class="opcion" id="opc_6_062"></div>
+                        <div class="opcion" id="opc_6_063"></div>
+                    </div>
+                </article>
+
+                <article id="n6-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_070"></div>
+                        <div class="opcion" id="opc_6_071"></div>
+                        <div class="opcion" id="opc_6_072"></div>
+                        <div class="opcion" id="opc_6_073"></div>
+                    </div>
+                </article>
+
+                <article id="n6-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_080"></div>
+                        <div class="opcion" id="opc_6_081"></div>
+                        <div class="opcion" id="opc_6_082"></div>
+                        <div class="opcion" id="opc_6_083"></div>
+                    </div>
+                </article>
+
+                <article id="n6-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_6_090"></div>
+                        <div class="opcion" id="opc_6_091"></div>
+                        <div class="opcion" id="opc_6_092"></div>
+                        <div class="opcion" id="opc_6_093"></div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 7 =======================-->
+
+                <article id="nivel7">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>6</p>
+                    </div>
+                </article>
+
+                <article id="n7-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_000"></div>
+                        <div class="opcion" id="opc_7_001"></div>
+                        <div class="opcion" id="opc_7_002"></div>
+                        <div class="opcion" id="opc_7_003"></div>
+                    </div>
+                </article>
+
+                <article id="n7-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_010"></div>
+                        <div class="opcion" id="opc_7_011"></div>
+                        <div class="opcion" id="opc_7_012"></div>
+                        <div class="opcion" id="opc_7_013"></div>
+                    </div>
+                </article>
+
+                <article id="n7-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_020"></div>
+                        <div class="opcion" id="opc_7_021"></div>
+                        <div class="opcion" id="opc_7_022"></div>
+                        <div class="opcion" id="opc_7_023"></div>
+                    </div>
+                </article>
+
+                <article id="n7-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_030"></div>
+                        <div class="opcion" id="opc_7_031"></div>
+                        <div class="opcion" id="opc_7_032"></div>
+                        <div class="opcion" id="opc_7_033"></div>
+                    </div>
+                </article>
+
+                <article id="n7-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_040"></div>
+                        <div class="opcion" id="opc_7_041"></div>
+                        <div class="opcion" id="opc_7_042"></div>
+                        <div class="opcion" id="opc_7_043"></div>
+                    </div>
+                </article>
+
+                <article id="n7-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_050"></div>
+                        <div class="opcion" id="opc_7_051"></div>
+                        <div class="opcion" id="opc_7_052"></div>
+                        <div class="opcion" id="opc_7_053"></div>
+                    </div>
+                </article>
+                <article id="n7-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_060"></div>
+                        <div class="opcion" id="opc_7_061"></div>
+                        <div class="opcion" id="opc_7_062"></div>
+                        <div class="opcion" id="opc_7_063"></div>
+                    </div>
+                </article>
+
+                <article id="n7-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_070"></div>
+                        <div class="opcion" id="opc_7_071"></div>
+                        <div class="opcion" id="opc_7_072"></div>
+                        <div class="opcion" id="opc_7_073"></div>
+                    </div>
+                </article>
+
+                <article id="n7-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_080"></div>
+                        <div class="opcion" id="opc_7_081"></div>
+                        <div class="opcion" id="opc_7_082"></div>
+                        <div class="opcion" id="opc_7_083"></div>
+                    </div>
+                </article>
+
+                <article id="n7-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_7_090"></div>
+                        <div class="opcion" id="opc_7_091"></div>
+                        <div class="opcion" id="opc_7_092"></div>
+                        <div class="opcion" id="opc_7_093"></div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 8 =======================-->
+
+                <article id="nivel8">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>6</p>
+                    </div>
+                </article>
+
+                <article id="n8-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_000"></div>
+                        <div class="opcion" id="opc_8_001"></div>
+                        <div class="opcion" id="opc_8_002"></div>
+                        <div class="opcion" id="opc_8_003"></div>
+                    </div>
+                </article>
+
+                <article id="n8-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_010"></div>
+                        <div class="opcion" id="opc_8_011"></div>
+                        <div class="opcion" id="opc_8_012"></div>
+                        <div class="opcion" id="opc_8_013"></div>
+                    </div>
+                </article>
+
+                <article id="n8-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_020"></div>
+                        <div class="opcion" id="opc_8_021"></div>
+                        <div class="opcion" id="opc_8_022"></div>
+                        <div class="opcion" id="opc_8_023"></div>
+                    </div>
+                </article>
+
+                <article id="n8-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_030"></div>
+                        <div class="opcion" id="opc_8_031"></div>
+                        <div class="opcion" id="opc_8_032"></div>
+                        <div class="opcion" id="opc_8_033"></div>
+                    </div>
+                </article>
+
+                <article id="n8-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_040"></div>
+                        <div class="opcion" id="opc_8_041"></div>
+                        <div class="opcion" id="opc_8_042"></div>
+                        <div class="opcion" id="opc_8_043"></div>
+                    </div>
+                </article>
+
+                <article id="n8-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_050"></div>
+                        <div class="opcion" id="opc_8_051"></div>
+                        <div class="opcion" id="opc_8_052"></div>
+                        <div class="opcion" id="opc_8_053"></div>
+                    </div>
+                </article>
+                <article id="n8-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_060"></div>
+                        <div class="opcion" id="opc_8_061"></div>
+                        <div class="opcion" id="opc_8_062"></div>
+                        <div class="opcion" id="opc_8_063"></div>
+                    </div>
+                </article>
+
+                <article id="n8-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_070"></div>
+                        <div class="opcion" id="opc_8_071"></div>
+                        <div class="opcion" id="opc_8_072"></div>
+                        <div class="opcion" id="opc_8_073"></div>
+                    </div>
+                </article>
+
+                <article id="n8-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_080"></div>
+                        <div class="opcion" id="opc_8_081"></div>
+                        <div class="opcion" id="opc_8_082"></div>
+                        <div class="opcion" id="opc_8_083"></div>
+                    </div>
+                </article>
+
+                <article id="n8-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_8_090"></div>
+                        <div class="opcion" id="opc_8_091"></div>
+                        <div class="opcion" id="opc_8_092"></div>
+                        <div class="opcion" id="opc_8_093"></div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 9 =======================-->
+
+                <article id="nivel9">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>6</p>
+                    </div>
+                </article>
+
+                <article id="n9-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_000"></div>
+                        <div class="opcion" id="opc_9_001"></div>
+                        <div class="opcion" id="opc_9_002"></div>
+                        <div class="opcion" id="opc_9_003"></div>
+                    </div>
+                </article>
+
+                <article id="n9-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_010"></div>
+                        <div class="opcion" id="opc_9_011"></div>
+                        <div class="opcion" id="opc_9_012"></div>
+                        <div class="opcion" id="opc_9_013"></div>
+                    </div>
+                </article>
+
+                <article id="n9-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_020"></div>
+                        <div class="opcion" id="opc_9_021"></div>
+                        <div class="opcion" id="opc_9_022"></div>
+                        <div class="opcion" id="opc_9_023"></div>
+                    </div>
+                </article>
+
+                <article id="n9-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_030"></div>
+                        <div class="opcion" id="opc_9_031"></div>
+                        <div class="opcion" id="opc_9_032"></div>
+                        <div class="opcion" id="opc_9_033"></div>
+                    </div>
+                </article>
+
+                <article id="n9-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_040"></div>
+                        <div class="opcion" id="opc_9_041"></div>
+                        <div class="opcion" id="opc_9_042"></div>
+                        <div class="opcion" id="opc_9_043"></div>
+                    </div>
+                </article>
+
+                <article id="n9-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_050"></div>
+                        <div class="opcion" id="opc_9_051"></div>
+                        <div class="opcion" id="opc_9_052"></div>
+                        <div class="opcion" id="opc_9_053"></div>
+                    </div>
+                </article>
+                <article id="n9-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_060"></div>
+                        <div class="opcion" id="opc_9_061"></div>
+                        <div class="opcion" id="opc_9_062"></div>
+                        <div class="opcion" id="opc_9_063"></div>
+                    </div>
+                </article>
+
+                <article id="n9-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_070"></div>
+                        <div class="opcion" id="opc_9_071"></div>
+                        <div class="opcion" id="opc_9_072"></div>
+                        <div class="opcion" id="opc_9_073"></div>
+                    </div>
+                </article>
+
+                <article id="n9-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_080"></div>
+                        <div class="opcion" id="opc_9_081"></div>
+                        <div class="opcion" id="opc_9_082"></div>
+                        <div class="opcion" id="opc_9_083"></div>
+                    </div>
+                </article>
+
+                <article id="n9-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_9_090"></div>
+                        <div class="opcion" id="opc_9_091"></div>
+                        <div class="opcion" id="opc_9_092"></div>
+                        <div class="opcion" id="opc_9_093"></div>
+                    </div>
+                </article>
+                <!--======================= NIVEL 10 =======================-->
+
+                <article id="nivel10">
+                    <div class="nivel-titulo">
+                        <h3>NIVEL</h3>
+                        <p>6</p>
+                    </div>
+                </article>
+
+                <article id="n10-0">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_000"></div>
+                        <div class="opcion" id="opc_10_001"></div>
+                        <div class="opcion" id="opc_10_002"></div>
+                        <div class="opcion" id="opc_10_003"></div>
+                    </div>
+                </article>
+
+                <article id="n10-1">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_010"></div>
+                        <div class="opcion" id="opc_10_011"></div>
+                        <div class="opcion" id="opc_10_012"></div>
+                        <div class="opcion" id="opc_10_013"></div>
+                    </div>
+                </article>
+
+                <article id="n10-2">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_020"></div>
+                        <div class="opcion" id="opc_10_021"></div>
+                        <div class="opcion" id="opc_10_022"></div>
+                        <div class="opcion" id="opc_10_023"></div>
+                    </div>
+                </article>
+
+                <article id="n10-3">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_030"></div>
+                        <div class="opcion" id="opc_10_031"></div>
+                        <div class="opcion" id="opc_10_032"></div>
+                        <div class="opcion" id="opc_10_033"></div>
+                    </div>
+                </article>
+
+                <article id="n10-4">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_040"></div>
+                        <div class="opcion" id="opc_10_041"></div>
+                        <div class="opcion" id="opc_10_042"></div>
+                        <div class="opcion" id="opc_10_043"></div>
+                    </div>
+                </article>
+
+                <article id="n10-5">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_050"></div>
+                        <div class="opcion" id="opc_10_051"></div>
+                        <div class="opcion" id="opc_10_052"></div>
+                        <div class="opcion" id="opc_10_053"></div>
+                    </div>
+                </article>
+                <article id="n10-6">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_060"></div>
+                        <div class="opcion" id="opc_10_061"></div>
+                        <div class="opcion" id="opc_10_062"></div>
+                        <div class="opcion" id="opc_10_063"></div>
+                    </div>
+                </article>
+
+                <article id="n10-7">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_070"></div>
+                        <div class="opcion" id="opc_10_071"></div>
+                        <div class="opcion" id="opc_10_072"></div>
+                        <div class="opcion" id="opc_10_073"></div>
+                    </div>
+                </article>
+
+                <article id="n10-8">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_080"></div>
+                        <div class="opcion" id="opc_10_081"></div>
+                        <div class="opcion" id="opc_10_082"></div>
+                        <div class="opcion" id="opc_10_083"></div>
+                    </div>
+                </article>
+
+                <article id="n10-9">
+                    <div class="caja_preguntas">
+                        <h3>¿Cuanto es</h3>
+                        <p>?</p>
+                    </div>
+                    <div class="nivel_opciones">
+                        <div class="opcion" id="opc_10_090"></div>
+                        <div class="opcion" id="opc_10_091"></div>
+                        <div class="opcion" id="opc_10_092"></div>
+                        <div class="opcion" id="opc_10_093"></div>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+
+        <div class="contenedor-vidas" id="contenedor_vida">
+            <div class="caja cvida">
+                <h3 class="titulo_vida">VIDA:</h3>
+                <p id="p_vida">5</p>
+            </div>
+        </div>
+        <footer>
+            <div class="pie">
+                <p>Creado por Yordi Vera
+                    <!--Derechos Reservados-->2020 - ver. demo 1.0</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--  SCRIPT  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

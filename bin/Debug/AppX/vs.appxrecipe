@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-HKENU7R</Machine>
+    <WindowsUser>YORDI</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bab74446-d789-447e-b4e7-e942fed53d62</PackageIdentityName>
+    <PackageIdentityPublisher>CN=YORDI</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6C352A952E3889081D2C528B8BED018881965EE1C0997A636E0CA64DA7B5694C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bab74446-d789-447e-b4e7-e942fed53d62_1.0.0.0_neutral__czaq3xxvzv2nj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bab74446-d789-447e-b4e7-e942fed53d62_czaq3xxvzv2nj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bab74446-d789-447e-b4e7-e942fed53d62</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=YORDI</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-28T17:33:24.503</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\fondo matematicaxd.jpg">
+      <PackagePath>images\fondo matematicaxd.jpg</PackagePath>
+      <Modified>2020-06-24T01:07:07.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2020-06-28T17:32:25.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-06-23T21:05:57.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-23T21:11:13.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-23T20:59:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-23T21:12:58.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-23T21:14:11.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-23T21:04:43.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-23T21:16:59.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\js\jquery.min.js">
+      <PackagePath>js\jquery.min.js</PackagePath>
+      <Modified>2020-05-25T19:18:50.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2020-06-28T17:29:10.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2020-06-28T17:36:57.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\media\audio\botonbien.wav">
+      <PackagePath>media\audio\botonbien.wav</PackagePath>
+      <Modified>2020-06-27T03:10:09.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\media\audio\botoncorrecto.wav">
+      <PackagePath>media\audio\botoncorrecto.wav</PackagePath>
+      <Modified>2020-06-26T18:51:21.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\media\audio\botonerroneo.wav">
+      <PackagePath>media\audio\botonerroneo.wav</PackagePath>
+      <Modified>2020-06-26T02:42:59.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YORDI\Desktop\Practicandex\MatematicaGame\MatematicaGame\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-06-28T17:33:22.909</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
